@@ -179,6 +179,7 @@ Reason: While the article has some relevance to your interests as a Maker & Craf
 ```
 
 ![Email Screenshot](screenshots/email.png)
+![Raindrop Integration Example](screenshots/raindrop.png)
 
 ## State Management
 
