@@ -1,0 +1,107 @@
+personas:
+  - role: "Cloud Security Consultant"
+    context: |
+      As a Cloud Security Consultant, my role is to ensure that my client's cloud environments (including AWS, Azure, Office 365, and Google Cloud Platform) remain secure, compliant, and optimized. I monitor articles and content for:
+      - **New Vulnerabilities:** Discoveries of security flaws or threat vectors that could affect cloud services.
+      - **Security Best Practices:** Updates and recommendations related to configuration, access management, and incident response.
+      - **Feature Updates and Enhancements:** Announcements about new security features or improvements in existing services.
+      - **Compliance & Regulatory Changes:** Insights into evolving industry standards, compliance mandates, and security frameworks that impact cloud environments.
+      - **Integration & Multi-Cloud Security:** Strategies for managing security across multi-cloud deployments and ensuring seamless integration.
+    priority: "high"
+
+  - role: "Application Security Consultant"
+    context: |
+      As an Application Security Consultant, I perform security tests against web and mobile applications to identify and remediate vulnerabilities. I am particularly interested in:
+      - **Vulnerability Write-Ups:** Detailed analyses and case studies of security flaws in web and mobile environments.
+      - **New Testing Tools:** Emerging tools, frameworks, and software that facilitate penetration testing and vulnerability scanning.
+      - **Security Testing Methodologies:** Updated methodologies, best practices, and techniques for effective security assessments.
+      - **Attack Vectors and Exploitation Techniques:** Insights on new or evolving attack strategies targeting application layers.
+      - **Bug Bounty Reports & Case Studies:** Real-world examples and learnings from bug bounty programs and penetration testing exercises.
+      - **Remediation Strategies:** Recommendations and best practices for addressing discovered vulnerabilities.
+    priority: "high"
+
+  - role: "Aspiring Stoic"
+    context: |
+      As an Aspiring Stoic, I seek content that delves into the practical and timeless wisdom of Stoic philosophy. I am particularly interested in:
+      - **Resilience and Emotional Mastery:** Articles that explore techniques for managing emotions, maintaining inner calm, and building resilience in the face of adversity.
+      - **Self-Improvement and Discipline:** Insights and practices that promote personal development, self-discipline, and mindfulness.
+      - **Philosophical Reflections:** Writings on Stoic principles such as acceptance, the dichotomy of control, and the pursuit of virtue in everyday life.
+      - **Practical Applications:** Real-world examples and modern interpretations of Stoic philosophy as it relates to work, relationships, and challenges.
+      - **Mindfulness & Reflection:** Guides on meditation, journaling, or other practices that help internalize Stoic teachings.
+    priority: "high"
+
+  - role: "Maker & Craftsman"
+    context: |
+      As a Maker & Craftsman, I embrace both modern digital fabrication and traditional woodworking. I’m interested in:
+      - **Digital Fabrication Innovations:** In-depth analyses of new breakthroughs in 3D printing, material science, or precision engineering.
+      - **Woodworking Techniques:** Detailed guides and techniques, not just aesthetic or novelty projects.
+      - **Integrated Projects:** Projects that thoughtfully combine digital fabrication and woodworking while offering robust technical insight.
+      - **Selective Hardware Hacking:** Only articles addressing hardware hacks when they provide significant technical depth or innovative methodologies.
+      - **Project Quality:** Articles that offer detailed step-by-step guidance, comprehensive insights, and substantial technical content—not just quick overviews or novelty project ideas.
+    priority: "medium"
+   
+  - role: "Firearms Enthusiast"
+    context: |
+      I want to stay informed about new developments in firearms technology, safety practices, and legal/regulatory changes. I’m interested in product reviews, practical usage tips, and innovations in firearm design.
+    priority: "low"
+
+  - role: "Fishing Aficionado"
+    context: |
+      I enjoy fishing and want to learn about the latest techniques, gear innovations, conservation efforts, and regional fishing reports. Content that dives into both recreational tips and technical advancements is of interest.
+    priority: "low"
+
+  - role: "Musician"
+    context: |
+      I follow developments in guitar and piano playing and music technology. I’m interested in learning new techniques, gear reviews, music theory, and insights into the broader music industry.
+    priority: "low"
+
+  - role: "Video Games Fan"
+    context: |
+      I keep up with the latest in the video gaming industry, including new game releases, hardware reviews, esports trends, and in-depth analyses of game design and mechanics.
+    priority: "low"
+
+  - role: "Automotive DIYer"
+    context: |
+      I’m passionate about automotive work, maintenance, and modding. I enjoy articles on restoration projects, modification techniques, repair tips, and innovations in automotive technologies.
+    priority: "low"
+
+  - role: "Avid Reader & Book Lover"
+    context: |
+      I love reading and learning from diverse sources. I’m interested in book reviews, literary analyses, reading strategies, and insights into different genres or emerging authors.
+    priority: "low"
+
+  - role: "Note-Taking Strategist"
+    context: |
+      I aim to optimize my learning and productivity through effective note-taking and organizational systems. I’m drawn to content exploring innovative note-taking methods, digital/analog workflows, and productivity hacks.
+    priority: "low"
+
+avoid:
+  - "Pure news articles without sufficient technical depth or detailed analysis"
+  - "Content that reads predominantly as marketing or promotional material, including overt advertisements or affiliate-heavy articles"
+  - "Cryptocurrency trading and market analysis, unless tied to technical aspects within my areas of interest"
+  - "Political commentary and opinion pieces that do not offer technical or practical insights"
+  - "Celebrity news, gossip, and entertainment content with no technical or analytical component"
+  - "DIY projects or tutorials that do not align with or support the themes of my defined personas"
+  - "Repair guides and DIY projects that are not focused on my areas of interest"
+  - "DIY projects or hardware hacks that focus on novelty or superficial improvements, and do not align with my defined personas or provide comprehensive technical analysis"
+
+llm:
+  provider: "ollama"  # "openai" or "ollama"
+  model: "qwen2.5:latest"  # gpt-4o, gpt-4o-mini or qwen2.5:latest
+  
+email:
+  smtp_server: "smtp.example.com"
+  smtp_port: 587
+  from_address: "your-email@example.com"
+  to_address: "recipient@example.com"
+  enabled: true
+
+raindrop:
+  enabled: false
+  collection_id: "0"  # Default collection ID, use "0" for unsorted
+
+rss_feeds:
+  - https://fatzombi.com/feed.xml
+  - https://blog.stratumsecurity.com/rss
+  - https://blog.codinghorror.com/rss/
+  - http://feeds.hanselman.com/ScottHanselman
