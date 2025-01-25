@@ -1,3 +1,7 @@
+This was a neat expirament, but it caused too many articles to be skipped that I was interested in.
+I took a different approach with focusing only on exclusions in a "new" version of this at https://github.com/fatzombi/rss-to-raindrop-llm
+
+
 # RSS Feed Analyzer with "AI" Integration
 
 This tool analyzes RSS feeds using AI to help you discover relevant articles based on your interests. It processes multiple RSS feeds, analyzes the content using AI (supports both OpenAI and Ollama), and can save interesting articles to Raindrop.io.
